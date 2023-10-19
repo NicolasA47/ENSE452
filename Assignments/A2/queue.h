@@ -66,7 +66,7 @@ public:
     /**
        Remove the head element of the queue.
 
-       \pre Queue must be non-empty.
+       \pre Queue must be non-emp ty.
 
        \post The head element is removed from the queue.  The
        data is copied into the data buffer provided.

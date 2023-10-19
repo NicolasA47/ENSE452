@@ -117,7 +117,7 @@ void Queue::insert(Data d, unsigned position)
     else
     {
         QElement* current = head;
-        for (unsigned i = 1; i < position; i++) // Traverse to position-1
+        for (unsigned i = 1; i < position; i++) // Traverse to position - 1
         {
             current = current->next;
         }
